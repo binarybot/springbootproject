@@ -1,0 +1,20 @@
+// rest-shell 1.0.1.BUILD-SNAPSHOT log opened at 2017-06-28 20:49:52
+exit
+// rest-shell 1.0.1.BUILD-SNAPSHOT log closed at 2017-06-28 20:49:57
+// rest-shell 1.0.1.BUILD-SNAPSHOT log opened at 2017-06-28 20:50:28
+exit
+// rest-shell 1.0.1.BUILD-SNAPSHOT log closed at 2017-06-28 20:50:32
+// null 1.0.1.BUILD-SNAPSHOT log opened at 2017-06-29 15:53:35
+// [failed] get ticket/all
+// null 1.0.1.BUILD-SNAPSHOT log opened at 2017-06-29 16:08:30
+get ticket/all
+// null 1.0.1.BUILD-SNAPSHOT log opened at 2017-06-29 16:08:32
+get ticket/get/1
+// null 1.0.1.BUILD-SNAPSHOT log opened at 2017-06-29 16:08:33
+get ticket/get/2
+// null 1.0.1.BUILD-SNAPSHOT log opened at 2017-06-29 16:11:58
+get ticket/all
+// null 1.0.1.BUILD-SNAPSHOT log opened at 2017-06-29 16:12:00
+get ticket/get/1
+// null 1.0.1.BUILD-SNAPSHOT log opened at 2017-06-29 16:12:01
+get ticket/get/2
