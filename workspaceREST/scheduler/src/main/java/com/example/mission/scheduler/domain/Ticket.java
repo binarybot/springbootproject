@@ -15,6 +15,7 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
+import javax.persistence.ManyToOne;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
@@ -64,6 +65,10 @@ public class Ticket implements Serializable{
 	@OneToOne
     @JoinColumn(name = "user_id")
 	private User ticketOwner;
+	
+	@ManyToOne(fetch=FetchType.LAZY)
+	@JoinColumn(name="story_id")
+	private Stories belongToStory;
 
 	//private Stories belongsToStory;
 	

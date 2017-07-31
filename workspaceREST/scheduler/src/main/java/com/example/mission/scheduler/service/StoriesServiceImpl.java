@@ -48,6 +48,7 @@ public class StoriesServiceImpl implements StoriesService{
 	@Override
 	public void createStory(Long id) {
 		// TODO Auto-generated method stub
+		//time when story was created and pass time into the ticket...
 		User storyOwner = userService.getUserById(id); 
 		Stories story = new Stories();
 		story.setTicket(new ArrayList<>(Arrays.asList(new Ticket())));

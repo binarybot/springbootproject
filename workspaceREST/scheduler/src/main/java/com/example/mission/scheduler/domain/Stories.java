@@ -25,10 +25,7 @@ public class Stories {
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private Long Id;
 	
-	@OneToMany(cascade={CascadeType.PERSIST})
-	@JoinTable(name="stories_ticket",
-	joinColumns = { @JoinColumn(name="stories_id") },
-		inverseJoinColumns = { @JoinColumn (name="ticket_id")})
+	@OneToMany(mappedBy="belongToStory")
 	private List<Ticket> ticket;
 	
 	@OneToOne

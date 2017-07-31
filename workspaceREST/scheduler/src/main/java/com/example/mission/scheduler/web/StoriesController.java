@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import javax.servlet.http.HttpServletRequest;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -27,6 +29,7 @@ public class StoriesController {
 	StoriesService storyService;
 	UserService userService;
 	
+	HttpServletRequest request;
 	
 	@Autowired
 	public StoriesController(StoriesService storyService, 
@@ -60,13 +63,13 @@ public class StoriesController {
 		}
 			
 			System.out.println("*** Story is null ****");
-			storyService.createStory(user_id);
+			//storyService.createStory(user_id);
 			//Write null pointer exception if story does not exist...
 			story = storyService.getStoryById(id);
 		System.out.println(story.getId());
 		//ticketService.addTicket(user, ticket);
-		story.setTicket(new ArrayList<Ticket>(Arrays.asList(ticket)));
-		
+		//story.setTicket(new ArrayList<Ticket>(Arrays.asList(ticket)));
+		story.addTicket(ticket);
 		storyService.save(story);
 		
 		
@@ -74,8 +77,9 @@ public class StoriesController {
 	}
 	
 	@RequestMapping(value="/story/get/all",method=RequestMethod.GET)
-	public List<Stories> getStory(){
-		
+	public List<Stories> getStory(HttpServletRequest request){
+		System.out.println("******REQUEST HOST NAME*****" +	request.getRemoteHost() + "   "+
+				request.getServletContext() + " " +request.getServletPath());
 		List<Stories> stories = storyService.getAllStories();
 		
 		return stories;
