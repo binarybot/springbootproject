@@ -1,0 +1,500 @@
+   31  brew install brewcask
+   32  brew install homebrew-cask
+   33  clear
+   34  brew tap phinze/homebrew-cask
+   35  brew install brew-cask
+   36  curl "http://localhost:8080/manager/all"
+   37  clear
+   38  ls
+   39  vi curlrequest.sh
+   40  ./curlrequest.sh
+   41  chmod 001 ./curlrequest.sh 
+   42  ./curlrequest.sh
+   43  chmod 777 ./curlrequest.sh 
+   44  ls -al
+   45  ./curlrequest.sh 
+   46  clear
+   47  ls
+   48  ./curlrequest.sh 
+   49  ./curlrequest.sh 
+   50  claer
+   51  clear
+   52  ./curlrequest.sh 
+   53  ./curlrequest.sh 
+   54  clear
+   55  ls
+   56  cd ..
+   57  cd scheduler
+   58  ls
+   59  mvn package
+   60  clear
+   61  ls
+   62  clear
+   63  ls
+   64  clear
+   65  ls
+   66  vi pom.xml 
+   67  clear
+   68  ls
+   69  vi pom.xml 
+   70  ls
+   71  cd src/main/java/com/example/mission/scheduler/
+   72  ls
+   73  vi SchedulerApplication.java 
+   74  cd domain/
+   75  ls
+   76  cd ..
+   77  ls
+   78  cd web/
+   79  ls
+   80  vi UserController.java 
+   81  clear
+   82  curl localhost:8080
+   83  curl http://localhost:8080/
+   84  curl http://localhost:8080/login
+   85  curl "http://localhost:8080/login.
+   86  curl "http://localhost:8080/login
+   87  curl "http://localhost:8080/login"
+   88  clear
+   89  ls
+   90  ls
+   91  clear
+   92  mysql -u root -p
+   93  curl localhost:8080/employee/1
+   94  clear
+   95  mongod
+   96  mongo
+   97  claer
+   98  clear
+   99  mysql -u root -p
+  100  clear
+  101  sudo /usr/local/mysql/support-files/mysql.server start
+  102  mysql -u root -p
+  103  clear
+  104  ls
+  105  clear
+  106  npm install -g @angular/cli
+  107  npm update
+  108  npm -v
+  109  node -v
+  110  clear
+  111  brew install node
+  112  node -v
+  113  brew update
+  114  brew upgrade node
+  115  node -v
+  116  brew postinstall node
+  117  sudo brew postinstall node
+  118  sudo
+  119  sudo brew upgrade node
+  120  sudo -p
+  121  brew upgrade node
+  122  ls
+  123  cd Documents/workspaceREST/scheduler
+  124  ls
+  125  cd src/main/resources/templates/
+  126  ls
+  127  vi results.html
+  128  curl "http://localhost:8080/registration"
+  129  curl "http://localhost:8080/registration"
+  130  curl "http://localhost:8080/registration"
+  131  curl -X POST --data "firstName=Mohan&lastName=Nataraj&email=mohan1519@gmail.com&roles=admin&password=mohan" http://localhost:8080/registration
+  132  curl -X POST --data "firstName=Mohan&lastName=Nataraj&email=mohan1519@gmail.com&roles=admin&password=mohan" http://localhost:8080/registration
+  133  curl -X POST --data "firstName=Mohan&lastName=Nataraj&email=mohan1519@gmail.com&roles=admin&password=mohan" http://localhost:8080/registration
+  134  curl -X POST --data "firstName=Mohan&lastName=Nataraj&email=mohan1519@gmail.com&password=mohan" http://localhost:8080/registration
+  135  curl -X POST --data "firstName=Mohan&lastName=Nataraj&email=mohan1519@gmail.com&password=mohan" http://localhost:8080/registration
+  136  curl -X POST --data "firstName=Mohan&lastName=Nataraj&email=mohan1519@gmail.com&password=mohan&active=1&roles=admin" http://localhost:8080/registration
+  137  curl -X POST --data "firstName=Mohan&lastName=Nataraj&email=mohan1519@gmail.com&password=mohan&active=1&roles=admin" http://localhost:8080/registration
+  138  curl -X POST --data "firstName=Mohan&lastName=Nataraj&email=mohan1519@gmail.com&password=mohan&active=1&roles=admin" http://localhost:8080/registration
+  139  curl -X POST --data "firstName=Mohan&lastName=Nataraj&email=mohan1519@gmail.com&password=mohan&active=1&roles=admin" http://localhost:8080/registration
+  140  curl -X POST --data "firstName=Mohan&lastName=Nataraj&email=mohan1519@gmail.com&password=mohan&active=1&roles=admin" http://localhost:8080/registration
+  141  curl -X POST --data "firstName=Mohan&lastName=Nataraj&email=mohan1519@gmail.com&password=mohan&active=1&roles=admin" http://localhost:8080/registration
+  142  curl -X POST --data "firstName=Mohan&lastName=Nataraj&email=mohan1519@gmail.com&password=mohan&active=true&roles=admin" http://localhost:8080/registration
+  143  curl -X POST --data "firstName=Mohan&lastName=Nataraj&email=mohan1519@gmail.com&password=mohan&active=true&roles=admin" http://localhost:8080/registration
+  144  curl -X POST --data "firstName=Mohan&lastName=Nataraj&email=mohan1519@gmail.com&password=mohan&active=true&roles=admin" http://localhost:8080/registration
+  145  curl -X POST --data "firstName=Mohan&lastName=Nataraj&email=mohan1519@gmail.com&password=mohan&active=true&roles=admin" http://localhost:8080/registration
+  146  curl -X POST --data "firstName=Mohan&lastName=Nataraj&email=mohan1519@gmail.com&password=mohan&active=true&roles=user" http://localhost:8080/registration
+  147  curl -X POST --data "firstName=Mohan&lastName=Nataraj&email=mohan15190@gmail.com&password=mohan&active=true&roles=user" http://localhost:8080/registration
+  148  curl -X POST --data "firstName=John&lastName=Doe&email=mohan1519191@gmail.com&password=mohan&active=true&roles=user" http://localhost:8080/registration
+  149  curl -X POST --data "firstName=John&lastName=Doe&email=johndoe@gmail.com&password=mohan&active=true&roles=user" http://localhost:8080/registration
+  150  curl -X POST --data "firstName=John&lastName=Doe&email=johndoe@gmail.com&password=mohan&active=true&roles=admin" http://localhost:8080/registration
+  151  curl -X POST --data "firstName=John&lastName=Doe&email=johndoe@gmail.com&password=mohan&active=true&roles=admin" http://localhost:8080/registration
+  152  curl -X POST --data "firstName=John&lastName=Doe&email=admin@gmail.com&password=admin&active=true&roles=admin" http://localhost:8080/registration
+  153  curl -X POST --data "firstName=John&lastName=Doe&email=admin@gmail.com&password=admin&active=true&roles=admin" http://localhost:8080/registration
+  154  curl -X POST --data "firstName=John&lastName=Doe&email=admin@gmail.com&password=admin&active=true&roles=admin" http://localhost:8080/registration
+  155  curl -X POST --data "firstName=John&lastName=Doe&email=admin@gmail.com&password=admin1&active=true&roles=admin" http://localhost:8080/registration
+  156  curl -X POST --data "firstName=John&lastName=Doe&email=admin@gmail.com&password=admin1&active=true&roles=admin" http://localhost:8080/registration
+  157  curl -X POST --data "firstName=John&lastName=Doe&email=admin@gmail.com&password=admin1&active=true&roles=admin" http://localhost:8080/registration
+  158  curl -X POST --data "firstName=John&lastName=Doe&email=admin1@gmail.com&password=admin1&active=true&roles=admin" http://localhost:8080/registration
+  159  clear
+  160  cd ..
+  161  cd ../../
+  162  ls
+  163  cd /
+  164  ls
+  165  cd Users/
+  166  ls
+  167  cd mnataraj/
+  168  ls
+  169  clear
+  170  npm
+  171  npm -v
+  172  ls
+  173  clear
+  174  mysql -u root -p
+  175  node -v
+  176  sudo port install nodejs-devel
+  177  sudo port install nodejs-devel
+  178  port install nodejs-devel
+  179  sudo port selfupdate
+  180  port
+  181  clear
+  182  node
+  183  npm update
+  184  npm -v
+  185  npm install -g @angular/cli
+  186  clear
+  187  sudo
+  188  clear
+  189  sudo -i
+  190  clear
+  191  cd /Users/mnataraj/
+  192  ls
+  193  cd /usr/local/
+  194  ls
+  195  cd lib/
+  196  ls
+  197  ls node*
+  198  brew uninstall node;
+  199  brew uninstall --force node;
+  200  node
+  201  node -v
+  202  brew uninstall --force node;
+  203  node -v
+  204  brew prune;
+  205  brew info node
+  206  claeer
+  207  clear
+  208  brew uninstall node
+  209  brew uninstall node;
+  210  brew doctor
+  211  brew uninstall node
+  212  brew prune
+  213  node -v
+  214  sudo port uninstall nodejs
+  215  lsbom -f -l -s -pf /var/db/receipts/org.nodejs.pkg.bom | while read f; do  sudo rm /usr/local/${f}; done
+  216  sudo rm -rf /usr/local/lib/node /usr/local/lib/node_modules /var/db/receipts/org.nodejs.*
+  217  ls
+  218  ls node
+  219  ls node*
+  220  sudo rm -rf node*
+  221  cd /usr/local/include
+  222  ls
+  223  ls node*
+  224  sudo rm -rf node*
+  225  ls node*
+  226  brew uninstall node
+  227  cd /usr/local/bin
+  228  sudo rm -rf /usr/local/bin/npm
+  229  ls -las
+  230  clear
+  231  sudo rm -rf /usr/local/share/man/man1/node.1
+  232  sudo rm -rf /usr/local/lib/dtrace/node.d
+  233  sudo rm -rf ~/.npm
+  234  node -v
+  235  brew install node
+  236  node
+  237  node -v
+  238  which node
+  239  vi ~/.bashrc
+  240  touch ~/.bashrc
+  241  brew info node
+  242  node -v
+  243  vi ~/.bash_profile 
+  244  vi ~/.bashrc
+  245  touch ~/.bashrc
+  246  node -v
+  247  brew info node
+  248  npm install -g grunt-cli
+  249  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  250  brew update
+  251  brew doctor
+  252  brew prune
+  253    brew install libogg libvorbis openssl@1.1
+  254  cd ..
+  255  ls
+  256  cd Cellar/
+  257  ls
+  258  ls node
+  259  cd node/
+  260  ls
+  261  cd 8.1.2/
+  262  ls
+  263  brew install node
+  264  cd ..
+  265  cd ..
+  266  ls
+  267  brew link node
+  268  node -v
+  269  ls
+  270   cd node
+  271  pwd
+  272  cd ../../../
+  273  cd local/bin/node
+  274  cd local/bin/
+  275  mkdir node
+  276  ls
+  277  ls node
+  278  cd node/
+  279  pwd
+  280  ln /usr/local/Cellar/node /usr/local/bin/node
+  281  ln -s /usr/local/Cellar/node /usr/local/bin/node
+  282  cat symlink
+  283  node -v
+  284  cd  /usr/local/bin/node
+  285  ls
+  286  cd node
+  287  ls
+  288  pwd
+  289  cd ..
+  290  ls
+  291  rm -rf node
+  292  ls
+  293  cd ..
+  294  ls
+  295  ls node
+  296  ls nod*
+  297  rm -rf node
+  298  ls
+  299  clear
+  300  ln -s /usr/local/Cellar/node /usr/local/bin/
+  301  cd node/
+  302  ls
+  303  cd ..
+  304  cat /usr/local/bin/node
+  305  source ~/.bashrc
+  306  source ~/.bash_profile 
+  307  node -v
+  308  node
+  309  node
+  310  sudo chown -R `whoami` /usr/local/include/node
+  311  ls /usr/local/include/
+  312  ls node
+  313  cd node
+  314  ls
+  315  brew link node
+  316  rm /usr/local/bin/node
+  317  brew link node
+  318  sudo chown -R `whoami` /usr/local/include/node
+  319  sudo chown -R `mnataraj` /usr/local/include/node
+  320  sudo chown -R mnataraj /usr/local/include/node
+  321  /usr/local/include/
+  322  cd /usr/local/include/
+  323  ls node
+  324  brew postinstall node -v
+  325  brew link node
+  326  chown -R  mnataraj /usr/local/share/systemtap/tapset
+  327  sudo chown -R mnataraj /usr/local/share/systemtap/tapset
+  328  brew link node
+  329  node
+  330  node -v
+  331  npm -v
+  332  npm install -g @angular/cli
+  333  ng new mission-app
+  334  cd mission-app/
+  335  ls
+  336  ng serve --open
+  337  node start
+  338  ng stop
+  339  ng help
+  340  ng -v
+  341  clear
+  342  curl "http://localhost:8080/admin@gmail.com
+  343  ;
+  344  curl "http://localhost:8080/admin@gmail.com;
+  345  curl "http://localhost:8080/admin@gmail.com";
+  346  curl "http://localhost:8080/admin@gmail.com";
+  347  curl "http://localhost:8080/admin@gmail.com";
+  348  curl "http://localhost:8080/admin@gmail.com";
+  349  curl "http://localhost:8080/admin@gmail.com";
+  350  curl "http://localhost:8080/admin@gmail.com";
+  351  curl "http://localhost:8080/admin@gmail.com";
+  352  curl "http://localhost:8080/admin@gmail.com";
+  353  curl "http://localhost:8080/admin@gmail.com";
+  354  clear
+  355  curl "http://localhost:8080/John";
+  356  curl "http://localhost:8080/admin@gmail.com";
+  357  curl "http://localhost:8080/admin@gmail.com";
+  358  curl "http://localhost:8080/admin@gmail.com";
+  359  curl "http://localhost:8080/admin@gmail.com";
+  360  ls
+  361  python hello.py 
+  362  vi hello.py 
+  363  python hello.py 
+  364  ls
+  365  clear
+  366  cd Documents/workspaceREST/scheduler
+  367  ls
+  368  mvn package
+  369  cd target/
+  370  ls
+  371  java -jar scheduler-0.0.1-SNAPSHOT.jar
+  372  clear
+  373  mysql -u root -p
+  374  cd ..
+  375  mvn package
+  376  cd target/
+  377  java -jar scheduler-0.0.1-SNAPSHOT.jar
+  378  mysql -v
+  379  sudo mysql -v
+  380  sudo mysql -v -p
+  381  mysql -v
+  382  mysql -u root -p
+  383  cleara
+  384  ls
+  385  ks
+  386  ls
+  387  cd src/app/app.component.ts 
+  388  cd src/app/
+  389  ls
+  390  vi app.component.ts
+  391  vi app.component.ts
+  392  vi app.component.ts
+  393  vi app.component.ts
+  394  npm install --save @ng-bootstrap/ng-bootstrap
+  395  clear
+  396  mysql -u root -p
+  397  brew install brew-cask
+  398  brew tap homebrew/core
+  399  brew tap phinze/cask
+  400  brew install brew-cask
+  401  brew install brew-cask-completion
+  402  brew install brew-cask
+  403  ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
+  404  https://caskroom.github.io/
+  405  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  406  brew install homebrew-cask
+  407  brew install brew-cask
+  408  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  409  brew cask
+  410  brew cask list
+  411  brew cask install atom
+  412  clear
+  413  curl "http://localhost:8080/admin@gmail.com";
+  414  history 
+  415  clear
+  416  ls
+  417  clear
+  418  history 
+  419  url -X POST --data "firstName=John&lastName=Doe&email=mohan1519191@gmail.com&password=mohan&active=true&roles=user" http://localhost:8080/registration
+  420  url -X POST --data "firstName=John&lastName=Doe&email=mohan1519191@gmail.com&password=mohan&active=true&roles=user" http://localhost:8080/registration
+  421  url -X POST --data "firstName=John&lastName=Doe&email=mohan1519191@gmail.com&password=mohan&active=true&roles=user" http://localhost:8080/registration
+  422  curl -X POST --data "firstName=John&lastName=Doe&email=mohan1519191@gmail.com&password=mohan&active=true&roles=user" http://localhost:8080/registration
+  423  curl -X POST --data "firstName=John&lastName=Doe&email=admin1@gmail.com&password=mohan&active=true&roles=user" http://localhost:8080/registration
+  424  history 
+  425  history 
+  426  curl -X POST --data "firstName=John&lastName=Doe&email=admin@gmail.com&password=admin1&active=true&roles=admin" http://localhost:8080/registration
+  427  curl -X POST --data "firstName=John&lastName=Doe&email=admin@gmail.com&password=admin1&active=true&roles=admin" http://localhost:8080/registration
+  428  curl -X POST --data "firstName=John&lastName=Doe&email=admin@gmail.com&password=admin2&active=true&roles=admin" http://localhost:8080/registration
+  429  curl -X POST --data "firstName=John&lastName=Doe&email=admin1@gmail.com&password=admin&active=true&roles=admin" http://localhost:8080/registration
+  430  curl -X POST --data "description=ticket-0&progress=85&titleTicket=title&ticketOwner=1&user=1" http://localhost:8080/ticket/add
+  431  curl -X POST --data "firstName=John&lastName=Doe&email=admin1@gmail.com&password=admin&active=true&roles=admin" http://localhost:8080/registration
+  432  curl -X POST --data "firstName=John&lastName=Doe&email=admin@gmail.com&password=admin2&active=true&roles=admin" http://localhost:8080/registration
+  433  curl -X POST --data "firstName=John&lastName=Doe&email=admin1@gmail.com&password=admin&active=true&roles=admin" http://localhost:8080/registration
+  434  curl -X POST --data "firstName=John&lastName=Doe&email=admin@gmail.com&password=admin2&active=true&roles=admin" http://localhost:8080/registration
+  435  curl -X POST --data "titleTicket=ticket1&description=this is ticket one&progress=80&ticketOwner=this" http://localhost:8080/ticket/add
+  436  curl -X POST --data "titleTicket=ticket1&description=this is ticket one&progress=80" http://localhost:8080/ticket/add
+  437  curl -X POST --data "firstName=John&lastName=Doe&email=admin@gmail.com&password=admin2&active=true&roles=admin" http://localhost:8080/registration
+  438  curl -X POST --data "firstName=John&lastName=Doe&email=admin1@gmail.com&password=admin&active=true&roles=admin" http://localhost:8080/registration
+  439  curl -X POST --data "titleTicket=ticket1&description=this is ticket one&progress=80" http://localhost:8080/ticket/add
+  440  curl -X POST --data "firstName=John&lastName=Doe&email=admin1@gmail.com&password=admin&active=true&roles=admin" http://localhost:8080/registration
+  441  curl -X POST --data "firstName=John&lastName=Doe&email=admin@gmail.com&password=admin2&active=true&roles=admin" http://localhost:8080/registration
+  442  curl -X POST --data "titleTicket=ticket1&description=this is ticket one&progress=80" http://localhost:8080/ticket/add
+  443  mysql -u root -p
+  444  history 
+  445  curl -X POST --data "titleTicket=ticket1&description=this is ticket one&ticketOwner=admin@gmail.com" http://localhost:8080/ticket/add
+  446  curl -X POST --data "titleTicket=ticket1&description=this is ticket one&ticketOwner=admin@gmail.com" http://localhost:8080/ticket/add
+  447  curl -X POST --data "titleTicket=ticket1&description=this is ticket one&ticketOwner=1" http://localhost:8080/ticket/add
+  448  ls
+  449  mysql -u root -p
+  450  history 
+  451  curl -X POST --data "titleTicket=ticket1&decriptopion=this is ticket one" http://localhost:8080/ticket/1/add
+  452  curl -X POST --data "titleTicket=ticket1&decriptopion=this is ticket one" http://localhost:8080/ticket/1/add
+  453  curl -X POST --data "titleTicket=ticket1&decriptopion=this is ticket one" http://localhost:8080/ticket/1/add
+  454  curl -X POST --data "titleTicket=ticket1&decriptopion=this is ticket one" http://localhost:8080/ticket/1/add
+  455  curl -X POST --data "titleTicket=ticket1&decriptopion=this is ticket one" http://localhost:8080/ticket/1/add
+  456  curl -X POST --data "titleTicket=ticket1&desriptopion=this is ticket one" http://localhost:8080/ticket/1/add
+  457  curl -X POST --data "titleTicket=ticket2&descriptopion=this is ticket one" http://localhost:8080/ticket/1/add
+  458  curl -X POST --data "titleTicket=ticket2&description=this is ticket one" http://localhost:8080/ticket/1/add
+  459  curl -X POST --data "titleTicket=ticket1&description=this is ticket one for user 2" http://localhost:8080/ticket/2/add
+  460  curl -X POST --data "titleTicket=ticket1&description=this is ticket one for user 2" http://localhost:8080/ticket/2/add
+  461  curl -X POST --data "titleTicket=ticket1&description=this is ticket two for user 2" http://localhost:8080/ticket/2/add
+  462  curl -X POST --data "titleTicket=ticket1&description=this is ticket three for user 2" http://localhost:8080/ticket/2/add
+  463  curl -X POST --data "titleTicket=ticket1&description=this is ticket four for user 2" http://localhost:8080/ticket/2/add
+  464  curl "http://localhost:8080/ticket/ticket1
+  465  ;
+  466  curl "http://localhost:8080/ticket/ticket1"
+  467  curl "http://localhost:8080/ticket/null"
+  468  curl "http://localhost:8080/ticket/null"
+  469  curl "http://localhost:8080/ticket/all"
+  470  curl "http://localhost:8080/ticket/all"
+  471  clear
+  472  ls
+  473  clear
+  474  ls *.java
+  475  vi p1.java 
+  476  jar -tvf p1.java 
+  477  jar p1.java 
+  478  clear
+  479  jar p1.class
+  480  vi p1.class 
+  481  clar
+  482  clear
+  483  ls
+  484  clear
+  485  $Home
+  486  cd Documents/
+  487  $Some
+  488  $Home
+  489  $HOME
+  490  cd $Home
+  491  ls
+  492  clear
+  493  ll
+  494  ls -al
+  495  vi patter
+  496  vi patterMatching.java 
+  497  clear
+  498  cd ..
+  499  cd ../..
+  500  ls
+  501  cd ..
+  502  ls
+  503  cd ..
+  504  ls
+  505  brew install rest-shell
+  506  history 
+  507  clear
+  508  bin/shell
+  509  bin/rest-shell
+  510  cd scheduler/
+  511  ls
+  512  cd src/main/resources/
+  513  cd static/
+  514  ls
+  515  cd ..
+  516  mkdir initdata
+  517  cd initdata/
+  518  ls
+  519  vi run.sh
+  520  sh run.sh 
+  521  vi restrun.sh
+  522  sh restrun.sh 
+  523  clear
+  524  rest-shell
+  525  vi restrun.sh
+  526  sh restrun.sh 
+  527  history
+  528  cat history > res.txt
+  529  cat history
+  530  history > history.txt

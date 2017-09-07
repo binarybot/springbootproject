@@ -1,0 +1,55 @@
+20:49:52.083 [main] DEBUG o.s.d.r.s.commands.ContextCommands - Cleared context variables...
+20:50:28.536 [main] DEBUG o.s.d.r.s.commands.ContextCommands - Cleared context variables...
+15:53:35.266 [main] DEBUG o.s.d.r.s.commands.ContextCommands - Cleared context variables...
+15:53:35.649 [main] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/ticket/all using null
+15:53:35.682 [main] WARN  o.s.d.r.shell.commands.HttpCommands - Client encountered an error. Retrying. (I/O error: Connection refused; nested exception is java.net.ConnectException: Connection refused)
+org.springframework.web.client.ResourceAccessException: I/O error: Connection refused; nested exception is java.net.ConnectException: Connection refused
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:461) ~[spring-web-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:423) ~[spring-web-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.springframework.data.rest.shell.commands.HttpCommands.execute(HttpCommands.java:332) [rest-shell-1.2.1.RELEASE.jar:na]
+	at org.springframework.data.rest.shell.commands.HttpCommands.get(HttpCommands.java:152) [rest-shell-1.2.1.RELEASE.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_40]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_40]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_40]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_40]
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:191) [spring-core-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.springframework.shell.core.SimpleExecutionStrategy.invoke(SimpleExecutionStrategy.java:64) [spring-shell-1.0.1.BUILD-SNAPSHOT.jar:1.0.1.BUILD-SNAPSHOT]
+	at org.springframework.shell.core.SimpleExecutionStrategy.execute(SimpleExecutionStrategy.java:57) [spring-shell-1.0.1.BUILD-SNAPSHOT.jar:1.0.1.BUILD-SNAPSHOT]
+	at org.springframework.shell.core.AbstractShell.executeCommand(AbstractShell.java:223) [spring-shell-1.0.1.BUILD-SNAPSHOT.jar:1.0.1.BUILD-SNAPSHOT]
+	at org.springframework.shell.Bootstrap.run(Bootstrap.java:106) [spring-shell-1.0.1.BUILD-SNAPSHOT.jar:1.0.1.BUILD-SNAPSHOT]
+	at org.springframework.shell.Bootstrap.main(Bootstrap.java:56) [spring-shell-1.0.1.BUILD-SNAPSHOT.jar:1.0.1.BUILD-SNAPSHOT]
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_40]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345) ~[na:1.8.0_40]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_40]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_40]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_40]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_40]
+	at java.net.Socket.connect(Socket.java:538) ~[na:1.8.0_40]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[na:1.8.0_40]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432) ~[na:1.8.0_40]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527) ~[na:1.8.0_40]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211) ~[na:1.8.0_40]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308) ~[na:1.8.0_40]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326) ~[na:1.8.0_40]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1168) ~[na:1.8.0_40]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1104) ~[na:1.8.0_40]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:998) ~[na:1.8.0_40]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:932) ~[na:1.8.0_40]
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:73) ~[spring-web-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:46) ~[spring-web-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:49) ~[spring-web-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:446) ~[spring-web-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	... 13 common frames omitted
+16:08:30.155 [main] DEBUG o.s.d.r.s.commands.ContextCommands - Cleared context variables...
+16:08:30.428 [main] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/ticket/all using null
+16:08:31.916 [main] DEBUG o.s.d.r.s.commands.ContextCommands - Cleared context variables...
+16:08:32.161 [main] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/ticket/get/1 using null
+16:08:33.334 [main] DEBUG o.s.d.r.s.commands.ContextCommands - Cleared context variables...
+16:08:33.575 [main] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/ticket/get/2 using null
+16:11:58.203 [main] DEBUG o.s.d.r.s.commands.ContextCommands - Cleared context variables...
+16:11:58.481 [main] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/ticket/all using null
+16:11:59.750 [main] DEBUG o.s.d.r.s.commands.ContextCommands - Cleared context variables...
+16:11:59.996 [main] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/ticket/get/1 using null
+16:12:01.238 [main] DEBUG o.s.d.r.s.commands.ContextCommands - Cleared context variables...
+16:12:01.485 [main] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/ticket/get/2 using null
